@@ -1,0 +1,87 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  background:  url('./images/bg-pattern-top.svg') top -200px left -50px no-repeat, url('./images/bg-pattern-bottom.svg') bottom -200px right -50px no-repeat;
+  background-size: 900px;
+  background-color: #37999f;
+  padding-top: 10%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 0.8rem;
+  color: darkgray;
+}
+
+b {
+  padding: 10px;
+  font-size: 1.2rem;
+  color: black;
+}
+
+br {
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+}
+
+#card {
+  width: 400px;
+  margin: 0 auto 20% auto;
+  border-radius: 5%;
+  text-align: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+#card-head {
+  background-image: url("./images/bg-pattern-card.svg");
+  height: 150px;
+  width: 100%;
+}
+
+#card-img {
+  border: 4px solid white;
+  border-radius: 50%;
+  display: block;
+  width: 96px;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+#card-body {
+  padding-top: 80px;
+}
+
+#info {
+  border-top: 1px solid lightgray;
+  margin-top: 50px;
+}
+
+.card-section {
+  width: 25%;
+  display: inline-block;
+  padding: 5% 0;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding-top: 25%;
+    background:  url('./images/bg-pattern-top.svg') top -200px left -50px no-repeat, url('./images/bg-pattern-bottom.svg') bottom -200px right -50px no-repeat;
+    background-size: 400px;
+    background-color: #4da8ad;
+  }
+
+  #card {
+    width: 380px;
+  }
+
+  .card-section {
+    padding-top: 8%;
+  }
+}
