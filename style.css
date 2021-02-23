@@ -1,6 +1,10 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
 .attribution a {
@@ -13,7 +17,7 @@ body {
   background-color: #37999f;
   padding-top: 10%;
   font-family: 'Kumbh Sans', sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   color: darkgray;
 }
 
@@ -72,7 +76,7 @@ br {
 @media (max-width: 700px) {
   body {
     padding-top: 25%;
-    background:  url('./images/bg-pattern-top.svg') top -200px left -50px no-repeat, url('./images/bg-pattern-bottom.svg') bottom -200px right -50px no-repeat;
+    background: url('./images/bg-pattern-top.svg') top -170px left -130px no-repeat, url('./images/bg-pattern-bottom.svg') bottom -200px right -135px no-repeat;
     background-size: 400px;
     background-color: #4da8ad;
   }
